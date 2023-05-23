@@ -14,6 +14,7 @@
 		C8FC2F592A1CA08D00115645 /* SearchingATableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8FC2F572A1CA08D00115645 /* SearchingATableView.xcdatamodeld */; };
 		C8FC2F5B2A1CA08F00115645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FC2F5A2A1CA08F00115645 /* Assets.xcassets */; };
 		C8FC2F5E2A1CA08F00115645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FC2F5C2A1CA08F00115645 /* LaunchScreen.storyboard */; };
+		C8FC2F662A1CA64100115645 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC2F652A1CA64100115645 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C8FC2F5A2A1CA08F00115645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8FC2F5D2A1CA08F00115645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8FC2F5F2A1CA08F00115645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8FC2F652A1CA64100115645 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C8FC2F4E2A1CA08D00115645 /* AppDelegate.swift */,
 				C8FC2F502A1CA08D00115645 /* SceneDelegate.swift */,
 				C8FC2F522A1CA08D00115645 /* ViewController.swift */,
+				C8FC2F652A1CA64100115645 /* TableViewCell.swift */,
 				C8FC2F542A1CA08D00115645 /* Main.storyboard */,
 				C8FC2F5A2A1CA08F00115645 /* Assets.xcassets */,
 				C8FC2F5C2A1CA08F00115645 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FC2F662A1CA64100115645 /* TableViewCell.swift in Sources */,
 				C8FC2F592A1CA08D00115645 /* SearchingATableView.xcdatamodeld in Sources */,
 				C8FC2F532A1CA08D00115645 /* ViewController.swift in Sources */,
 				C8FC2F4F2A1CA08D00115645 /* AppDelegate.swift in Sources */,
